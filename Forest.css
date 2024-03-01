@@ -1,0 +1,1990 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.fixed {
+    height: 50%;
+    width: 5.75rem;
+    background-color: rgb(36, 35, 35);
+    color: slategrey;
+    position: fixed;
+    top: 4.06rem;
+    right: 0px;
+    font-size: 0.875rem;
+    text-align: center;
+    border-top-left-radius: 0.31rem;
+    border-bottom-left-radius: 0.31rem;
+    justify-content: center;
+}
+
+.fixed .btns {
+    height: 5.62rem;
+    padding-top: 1.25rem;
+}
+
+.btns:hover {
+    color: rgb(232, 227, 227);
+    transition: all 3s;
+    cursor: pointer;
+
+}
+
+.one {
+    height: 1000px;
+    background-image: url('https://p.w3layouts.com/demos_new/template_demo/17-12-2018/forest-demo_Free/2069386206/web/images/b2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+     background-position: center; 
+
+}
+nav{
+   
+    color: rgb(255, 255, 255);
+    top:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    
+   
+}
+nav h1{
+    font-size: 30px;
+    padding-top: 28px;
+    
+}
+
+nav ul{
+    display:flex;
+    flex-wrap:wrap;
+    list-style-type:none;
+   
+}
+nav ul a{
+    
+    
+    color: rgb(236, 232, 232);
+    font-size: 25px;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-right: 20px;
+    /* inline element bhitra inline element cha vane top 
+    bottom le kam gardaina */
+    display: inline-block;
+}
+
+ li:hover a{
+    color: lightgreen;
+    cursor: pointer;
+}
+.rightbar{
+   position: fixed;
+   height: 220px;
+   width:80px;
+   top:120px;
+   right:0px;
+   background-color: rgb(13, 9, 28);
+   display:flex;
+    flex-wrap:wrap;
+}
+.i{
+    display: flex;
+    background-color:pink;
+    color: white;
+    /* display: inline-block; */
+}
+.text1{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+
+}
+.text1 h1{
+    padding-bottom: 17px;
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    
+}
+
+.text1 h2{
+    font-size: 45px;
+    padding-bottom: 17px;
+    letter-spacing: 1px;
+}
+.text1 h3{
+    font-weight: normal;
+    line-height: 35px;
+    letter-spacing: 1.4px;
+}
+.btn11{
+    height:40px;
+    width:110px;
+    border-radius: 20px;
+    color: limegreen;
+    font-size: 17px;
+    margin-left:650px ;
+    margin-top: 30px;
+    border:solid;
+    border-color: white;
+
+}
+.btn12{
+    height:40px;
+    width:110px;
+    font-size: 17px;
+    border-radius: 20px;
+    color: rgb(254, 254, 254);
+    margin-left:30px;
+    /* margin-left:600px ;
+    margin-top: 30px; */
+    background-color: rgb(122, 203, 122);
+    border:solid;
+    border-color: white;
+
+}
+.btn11:hover{
+    background-color:rgb(12, 12, 12) ;
+    color: white;
+   cursor: pointer;
+}
+.btn12:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/* ...........................................................................
+............................................................................. */
+
+
+
+.two{
+    
+    height:800px;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    top: 80px; 
+    left: 20px;
+   
+
+}
+.text21{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* margin-top: 90px; */
+}
+.text21 h1{
+    font-size: 25px;
+    color: rgb(159, 227, 159);
+}
+.text21 h2{
+    font-size: 30px;
+    padding-top: 10px;
+   
+    
+}
+.text21 h3{
+    padding-top: 35px;
+    color:grey;
+   
+
+}
+.text21 .image{
+    background-color: pink;
+    height:450px ;
+    width:400px;
+   position: relative;
+   top:100px;
+   left:250px;
+   overflow: hidden;
+       
+}
+.text21 .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.text22 {
+    
+   background-color: rgb(255, 255, 255);
+   height:500px;
+   width:550px;
+   position: relative;
+   right:-50%;
+   bottom:350px;
+    
+   
+
+}
+.text22 h1{
+    text-align: left;
+    color:#a3c962;
+    font-size: 25px;
+ }
+ .text22 h2{
+    text-align: left;
+    font-weight:normal;
+    letter-spacing: 1.5px;
+    line-height: 34px;
+    font-size:30px;
+ }
+ .text22 h3{
+    padding-top: 10px;
+    text-align: left;
+    font-weight: normal;
+    color:grey;
+    line-height: 25px;
+    
+ }
+ .text22 .circle1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border:solid;
+    border-color:#049dff;
+    position: relative;
+    top:20px;
+ }
+ .text22 .circle1 .minicircle1{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border:solid;
+    border-color:rgb(202, 196, 196);
+    background-color: white;
+    position: relative;
+    left:9px;
+    top:9px;
+    text-align: center;
+    font-size: 40px;
+    color:#049dff
+  
+  
+    
+
+ }
+ .text22 .circle1 .minicircle1 p{
+    position: relative;
+    top:35px;
+    left:5px;
+ }
+ .text22 p1{
+    position: relative;
+    top:40px;
+    left:20px;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+ }
+ .text22 .circle2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border:solid;
+    border-color:#a3c962;
+    position: relative;
+    left:200px;
+    bottom: 155px;
+    font-size: 40px;
+    color: #a3c962;
+   
+ }
+ .text22 .circle2 .minicircle2 p{
+    position: relative;
+    top:35px;
+    left:5px;
+ }
+ .text22 .circle2 .minicircle2{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border:solid;
+    border-color:rgb(202, 196, 196);
+    background-color: white;
+    position: relative;
+    left:9px;
+    top:9px;
+    text-align: center;
+  
+    
+
+ }
+ .text22 p2{
+    position: relative;
+    left:240px;
+    bottom: 140px;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+ }
+ .text22 .circle3{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border:solid;
+    border-color:orange;
+    position: relative;
+    left:400px;
+    bottom: 330px;
+  
+   
+   
+ }
+ .text22 .circle3 .minicircle3{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border:solid;
+    border-color:rgb(202, 196, 196);
+    background-color: white;
+    position: relative;
+    left:9px;
+    top:9px;
+    text-align: center;
+  font-size: 40px;
+  color: orange;
+    
+
+ }
+ .text22 .circle3 .minicircle3 p{
+    position: relative;
+    top:35px;
+    left:5px;
+ }
+ 
+ .text22 p3{
+    position: relative;
+    top:200px;
+    left:100px;
+
+    font-size: 23px;
+    letter-spacing: 1.5px;
+ }
+ 
+  
+/* ...........................................................................
+............................................................................. */
+.three{
+    height: 850px;
+    
+    
+   
+}
+.three img{
+    width:100%;
+    height: 100%;
+    
+}
+.three .text3{
+    width: 870px;
+    height: 100px;
+  
+    position: relative;
+    bottom:720px;
+    left:300px
+}
+.text3 p{
+    color: white;
+    font:24px;
+    position: relative;
+    top:30px;
+    
+   word-spacing: 3px;
+   line-height: 24px;
+   letter-spacing: 3px;
+
+}
+.text3 h1{
+    color:#a3c962;
+    position: relative;
+    left:650px;
+    bottom:30px;
+    font-size: 22px;
+    letter-spacing:2px;
+    
+
+}
+.text3 h2{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left:650px;
+    bottom:30px;
+    font-size: 35px;
+    letter-spacing:2px;
+    font-weight: normal;
+    
+
+}
+.three .container3{
+    /* background-color: rgb(255, 255, 255); */
+    width: 1150px;
+    height:540px;
+    position: relative;
+    bottom:680px;
+    left:200px; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+   
+
+}
+.three .container3 .demo3{
+    background-color: rgb(255, 255, 255);
+    width:30%;
+    height:235px;
+    position: relative;
+    top:15px;
+}
+.demo3:hover .overlay{
+    display:block;
+}
+
+.container3 .demo3:hover{
+    background-color: lightgrey
+
+   
+
+}
+ .demo3 .ic3{
+    height: 40px;
+    width: 40px;
+    
+
+    position: relative;
+    left:160px;
+    top:30px;
+
+
+    font-size: 45px;
+}
+.demo3 h1{
+    color:#a3c962;
+    text-align:center;
+    position: relative;
+    top:50px;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+
+}
+.demo3 h2{
+    color: rgb(93, 98, 93);
+    text-align:center;
+    position: relative;
+    top:64px;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 23px;
+
+}
+
+/* ...........................................................................
+............................................................................. */
+
+.four{
+    height: 750px;
+    background-color: rgb(255, 255, 254);
+}
+.four .text4{
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    position: relative;
+    top:100px;
+    left:480px;
+
+
+}
+.text4 h1{
+    color: #a3c962;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    position: relative;
+    top:30px;
+    left:90px;
+    
+
+}
+
+.text4 h2{
+    font-size: 34px;
+    letter-spacing: 1.5px;
+    position: relative;
+    top:20px;
+    left:58px;
+    font-weight: none;
+
+
+}
+
+.text4 h3{
+    font-weight: none;
+    letter-spacing:1.5px ;
+    word-spacing: 2px;
+    position: relative;
+    left:280px;
+    bottom: 40px;
+    line-height: 24px;
+    color:grey
+}
+.four .image41{
+    height: 400px;
+    width: 550px;
+    background-color: pink;
+    position: relative;
+    left:180px;
+    top:180px;
+}
+.four .image41 img{
+    width:100%;
+    height: 100%;
+}
+.four .image42{
+    width:260px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    top: 210px;
+    left:180px;
+}
+.four .image42 img{
+    width:100%;
+    height: 100%;
+}
+.four .image43 img{
+    width:100%;
+    height: 100%;
+}
+.four .image44 img{
+    width:100%;
+    height: 100%;
+}
+.four .image45 img{
+    width:100%;
+    height: 100%;
+}
+.four .image46 img{
+    width:100%;
+    height: 100%;
+}
+.four .image47 img{
+    width:100%;
+    height: 100%;
+}
+.four .image48 img{
+    width:100%;
+    height: 100%;
+}
+.four .image49 img{
+    width:100%;
+    height: 100%;
+}
+
+
+
+.four .image43{
+    width:260px;
+    height: 200px;
+    background-color: rgb(190, 23, 50);
+    position: relative;
+   top:10px;
+    left:467px;
+}
+.four .image44{
+    width: 550px;
+    height: 450px;
+    background-color: rgb(129, 48, 62);
+    position: relative;
+    left:180px;
+    top:50px;
+}
+.four .image45{
+    width:260px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    left:780px;
+    bottom: 1070px;
+
+}
+.four .image46{
+    width:260px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    left:780px;
+    bottom: 920px;
+
+}
+.four .image47{
+    width:550px;
+    height: 450px;
+    background-color: rgb(101, 5, 21);
+    position: relative;
+    left:780px;
+    bottom: 900px;
+}
+
+.four .image48{
+    width:260px;
+    height: 200px;
+    background-color: rgb(145, 45, 62);
+    position: relative;
+    left:1070px;
+    bottom: 1570px; 
+
+}
+.four .image49{
+    width:255px;
+    height: 328px;
+    background-color:#a3c962;
+    position: relative;
+    left:1070px;
+    bottom: 2120px; 
+
+}
+/* ...........................................................................
+............................................................................. */
+.five{
+    margin-top: 800px;
+    height: 250px;
+    background-color:#a3c962;
+}
+.five .text51{
+    height: 200px;
+    width: 200px;
+   /* background-color: rgb(255, 255, 255); */
+    position: relative;
+    top: 50px;
+    left:80px;
+    text-align: center;
+}
+.five .text51 .icon51{
+    height: 35px;
+    width: 35px;
+   
+    position: relative;
+    top:40px;
+   left:90px;
+   font-size: 25px;
+    
+}
+
+
+
+
+
+.five .text51 h1{
+    text-align: center;
+    letter-spacing: 1.6px;
+    font-size: 25px;
+    position: relative;
+    top:45px;
+    left:5px;
+    font-weight: bold;
+    
+
+}
+.five .text51 h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 30px;
+    left:5px;
+    font-weight: bold;
+   
+}
+.five .text52{
+
+    height: 200px;
+    width: 200px;
+   position: relative;
+   left:450px;
+   bottom: 150px;
+
+}
+.five .text52 .icon52{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top:50px;
+    left:90px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.five .text52 h1{
+    text-align: center;
+    letter-spacing: 1.6px;
+    font-size: 25px;
+    position: relative;
+    top:50px;
+    font-weight: bold;
+    
+    
+}
+.five .text52 h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+}
+
+.five .text53{
+
+    height: 200px;
+    width: 200px;
+   position: relative;
+   left:830px;
+   bottom: 350px;
+
+}
+.five .text53 .icon52{
+    height: 40px;
+    width: 40px;
+   
+    position: relative;
+    top:50px;
+    left:90px;
+    font-size:25px;
+    border-radius: 50%;
+}
+
+.five .text53 h1{
+    text-align: center;
+    letter-spacing: 1.6px;
+    font-size: 25px;
+    position: relative;
+    top:50px;
+    font-weight: bold;
+    
+    
+}
+.five .text53 h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+}
+
+.five .text54{
+
+    height: 200px;
+    width: 200px;
+   position: relative;
+   left:1200px;
+   bottom: 560px;
+
+}
+.five .text54 .icon51{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top:50px;
+    left:90px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.five .text54 h1{
+    text-align: center;
+    letter-spacing: 1.6px;
+    font-size: 25px;
+    position: relative;
+    top:50px;
+    font-weight: bold;
+    
+    
+}
+.five .text54 h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+   
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+}
+
+
+  /* ...........................................................................
+............................................................................. */
+
+.six{
+
+    height: 900px;
+    
+   
+}
+.six .text6{
+   position: relative;
+   left:200px;
+   top:60px;
+   /* background-color: pink; */
+   width:1000px;
+
+    
+}
+.six .text6 h1{
+    color:#a3c962;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: right;
+    position: relative;
+    right: 170px;
+    top:60px;
+
+}
+.six .text6 h2{
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    /* position: relative;
+    left:400px; */
+    text-align: right;
+    position: relative;
+    right:130px;
+    top:60px;
+    
+
+}
+.six .text6 p{
+    position: relative;
+    right:380px;
+    text-align: right;
+    letter-spacing: 2px;
+    color: grey;
+    line-height: 25px;
+    font-size: 18px;
+
+
+
+}
+.six .image6{
+    height: 450px;
+    width: 400px;
+    background-color: orange;
+    position: relative;
+    top:140px;
+    left:200px;
+    
+}
+.six .container6{
+    height: 500px;
+    width:700px ;
+    background-color: rgb(255, 255, 255);
+   position: relative;
+   left:650px;
+   bottom: 310px;
+ 
+  
+   
+}
+.six .container6 .demo61{
+    background-color: rgb(255, 255, 255);
+    height: 140px;
+    width:640px;
+    position: relative;
+    left:10px;
+    border-radius: 7px;
+    box-shadow: -5px -2px 2px 5px rgb(187, 192, 187);
+    font-size: 35px;
+    
+    
+}
+.six .container6 .demo61 .icon6{
+    position: relative;
+    top:50px;
+    left:120px;
+    
+}
+
+
+
+
+.six .container6 h1{
+    font-size: 27px;
+    color:#a3c962;
+    position: relative;
+    left:265px;
+   
+    
+
+}
+.six .container6 p{
+    color:grey;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 23px;
+    position: relative;
+    top:10px;
+    left:270px;
+
+}
+.six .container6 .demo62{
+    background-color: rgb(255, 255, 255);
+    height: 140px;
+    width:605px;
+    position: relative;
+    top:50px;
+    left:50px;
+    border-radius: 7px;
+    box-shadow: -5px -2px 2px 5px rgb(187, 192, 187);
+    font-size: 30px;
+    
+}
+.six .container6 .demo62 .icon6{
+    position: relative;
+    top:50px;
+    left:120px;
+}
+
+
+.six .container6 .demo63{
+    background-color: rgb(255, 255, 255);
+    height: 140px;
+    width:640px;
+    position: relative;
+    top:100px;
+    left:10px;
+    border-radius: 7px;
+    box-shadow: -5px -2px 2px 5px rgb(187, 192, 187);
+    font-size: 30px;
+    
+}
+.six .container6 .demo63 .icon6{
+    position: relative;
+    top:50px;
+    left:120px;
+}
+
+/* ...........................................................................
+............................................................................. */
+
+.seven{
+    margin-top:0px;
+    height: 700px;
+    background-color: aqua;
+}
+.seven img{
+    width:100%;
+    height: 100%;
+}
+.seven .text7{
+    position: relative;
+    top:-600px;
+    left:550px;
+  
+    width:600px;
+}
+.seven .text7 h1{
+    color:#a3c962;
+    font-size: 27px;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+    position: relative;
+    left:80px
+
+
+   
+}
+.seven .text7 h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    letter-spacing: 1.7px;
+    font-weight: normal;
+    position: relative;
+    left:26px;
+    top:4px;
+
+
+   
+}
+.seven .text7 p{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 29px;
+    text-align: left;
+    font-weight: normal;
+    position: relative;
+    left:250px;
+    bottom: 65px;
+
+
+   
+}
+.seven .container7{
+    width:1150px;
+    height: 370px;
+   
+    position: relative;
+    top:-600px;
+    left:190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+
+}
+.seven .container7 .demo7{
+    width:23%;
+    background-color: white;
+
+}
+.seven .container7 .demo7 h1{
+    color:#a3c962;
+    font-size: 27px;
+    text-align: center;
+    position: relative;
+    top:30px;
+    font-weight: bold;
+}
+.seven .container7 .demo7 h2{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+     position: relative;
+     top:72px;
+     left:75px;
+   
+   
+}
+.seven .container7 .demo7 h3{
+    color:#a3c962;
+    font-size: 27px;
+    text-align: center;
+    position: relative;
+    top:45px;
+    right:31px;
+
+}
+.seven .container7 .demo7 h4{
+    color: black;
+    font-size: 19px;
+    position: relative;
+    top:22px;
+    left: 125px;
+    font-weight: normal;
+   
+
+    letter-spacing: 1px;
+}
+.seven .container7 .demo7 p{
+    color: grey;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    position: relative;
+    top:45px;
+
+}
+.seven .container7 .demo7 .btn7{
+    height:40px;
+    width:120px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #a3c962;
+     font-size: 17px;
+    position: relative;
+    top:60px;
+    left:70px;
+    border: none;
+
+}
+.seven .container7 .demo7 .btn7:hover{
+    background-color: black;
+
+}
+
+/* ...........................................................................
+............................................................................. */
+
+
+.eight{
+   
+   
+    height:650px;
+    background-color: rgb(255, 255, 255);
+}
+.eight .text8{
+   
+   width:900px;
+   position: relative;
+   left:120px;
+   top:60px;
+    
+}
+.eight .text8 h1{
+    font-size: 25px;
+    letter-spacing: 1.4px;
+    color: #a3c962;
+    position: relative;
+    left:625px;
+    bottom:50px;
+    
+
+}
+.eight .text8 h2{
+    font-size: 40px;
+    letter-spacing: 1.7px;
+    color:rgb(0, 0, 0);
+    font-weight: normal;
+    position: relative;
+    left: 625px;
+    bottom: 50px;
+    
+}
+.eight .text8 p{
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 29px;
+    color: gray;
+    text-align: right;
+    position: relative;
+    right:310px;
+    top:16px;
+  
+    
+}
+.eight .container8{
+    width:1200px;
+    height: 450px;
+   background-color: rgb(255, 255, 255);
+    position: relative;
+    top:50px;
+    left:170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.eight .container8 .demo8{
+    width:30%;
+    
+   
+}
+.eight .container8 .demo8 img{
+   position: relative;
+   left:30px;
+   top:40px;
+   border:5px double;
+   color:rgb(200, 195, 195);   
+ 
+}
+
+.eight .container8 .demo8 h1{
+    font-size: 27px;
+    color: #a3c962;
+    position: relative;
+    top:50px;
+    left:27px;
+}
+
+.eight .container8 .demo8 h2{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    
+    font-weight: normal;
+    position: relative;
+    top:54px;
+     left:30px;
+  
+   
+
+}
+.eight .container8 .demo8 p{
+    font-size: 17px;
+    color: #808080;
+    letter-spacing:1.8x;
+    line-height: 26px;
+    position: relative;
+    top:70px;
+    left:32px;
+}
+
+/* ...........................................................................
+............................................................................. */
+
+.nine{
+    height: 320px;
+   
+    background-color:#a3c962;
+}
+.nine .button9{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left:730px;
+    top:80px;
+    font-size: 35px;
+    text-align: center;    
+    
+}
+.nine .button9:hover{
+    background-color: black;
+}
+.nine .button9 .btn9{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left:15px;
+    top:15px;
+    font-size: 42px;
+    
+}
+.nine .button9 .btn9:hover{
+    background-color: black;
+}
+
+.nine .button9 .btn9 i{
+    position: relative;
+    bottom: 1.7px;
+    right: 1px;
+    color: rgb(0, 0, 0);
+  
+}
+.nine .button9 .btn9 i:hover{
+    color: white;
+
+}
+
+
+
+.nine h1{
+    font-weight: normal;
+    color: white;
+    font-size: 37px;
+    text-align: center;
+    position: relative;
+    top:100px;
+    letter-spacing: 1px;
+}
+.nine p{
+    text-align: center;
+    position: relative;
+    top:120px;
+    letter-spacing: 1.5px;
+    color: rgb(119, 117, 117);
+    font-weight: normal;
+}
+/* ...........................................................................
+............................................................................. */
+
+
+.ten{
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+}
+.ten .text10{
+   
+    width:900px;
+    position: relative;
+    left:120px;
+    top:60px;
+     
+ }
+ .ten .text10 h1{
+     font-size: 25px;
+     letter-spacing: 1.4px;
+     color:#a3c962;
+     position: relative;
+     left:625px;
+     bottom:50px;
+     
+ 
+ }
+ .ten .text10 h2{
+     font-size: 40px;
+     letter-spacing: 1.7px;
+     color:rgb(0, 0, 0);
+     font-weight: normal;
+     position: relative;
+     left: 625px;
+     bottom: 50px;
+     
+ }
+ .ten .text10 p{
+     font-size: 17px;
+     letter-spacing: 2px;
+     line-height: 29px;
+     color: gray;
+     text-align: right;
+     position: relative;
+     right:310px;
+     top:16px;
+   
+     
+ }
+ .ten .container10{
+    /* background-color: pink; */
+    width:1200px;
+    height: 500px;
+    position: relative;
+    left:150px;
+    top:80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+ }
+ .ten .container10 .demo10{
+    /* background-color: aqua; */
+    width:21%;
+
+ }
+ .ten .container10 .demo10 .image10{
+    width: 252px;
+    height: 328px;
+    /* background-color: orange; */
+ }
+ .ten .container10 .demo10 .info10{
+    
+    height: 88px;
+    
+    
+    /* background-color: rgb(143, 98, 13); */
+ }
+ .ten .container10 .demo10 .info10 h1{
+    
+    text-align: center;
+    color:#a3c962;
+    font-size: 25px;
+    position: relative;
+    top:16px;
+   
+    
+ }
+ .ten .container10 .demo10 .info10 h2{
+    position: relative;
+    top: 24px; 
+    font-size: 20px; 
+    text-align: center;
+    font-weight: normal;
+
+ }
+
+ 
+ .ten .container10 .demo10 .icon10{
+    width: 252px;
+    height: 78px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 88px;
+    font-size: 30px;
+    position: relative;
+    right:40px;
+     
+
+ }
+ .ten .container10 .demo10 .icon10:hover{
+    cursor: pointer;
+  
+
+ }
+ 
+ .ten .container10 .demo10 .icon10 .ic10{
+    width: 38px;
+    height: 38px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50% ;
+    font-size: 14px; 
+    text-align: center;
+    
+    
+ }
+
+.ten .container10 .demo10 .icon10 .ic10 i{
+    position: relative;
+    top:12px;   
+    color: white;
+}
+.ten .container10 .demo10 .icon10 .ic10 i:hover{
+    color:#a3c962 ;
+}
+
+.ten .container10 .demo10 .icon10 .ic10 .i10{
+    background-color: white;
+    width: 22px;
+    height: 22px;
+   border-radius: 50%;
+   position: relative;
+   top:9px;
+   left:8px;
+   font-size: 24px;
+
+}
+.ten .container10 .demo10 .icon10 .ic10 .i10 i{
+
+    position: relative;
+    top:-1.2px;
+    right:1.3px;
+}
+.ten .container10 .demo10 .icon10 .ic10 .i10:hover{
+    background-color:#a3c962;
+    cursor: pointer;
+}
+
+
+
+/* ...........................................................................
+............................................................................. */
+
+
+.eleven{
+    height: 800px;
+    background-color: grey;
+}
+.eleven img{
+    width:100%;
+    height: 100%;
+}
+.eleven .text11{
+    
+    width:600px;
+    
+    position: relative;
+    bottom: 750px;
+    left:500px;
+}
+.eleven .text11 h1{
+    color:#a3c962;
+    font-size: 25px;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+    position: relative;
+    left:30px;
+   
+}
+
+.eleven .text11 h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    letter-spacing: 1.7px;
+    font-weight: normal;
+    position: relative;
+    left:26px;
+    top:4px;
+
+
+   
+}
+.eleven .text11 p{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 29px;
+    text-align: left;
+    font-weight: normal;
+    position: relative;
+    left:250px;
+    bottom: 65px;
+  
+}
+.eleven .container11{
+   
+    width: 1200px;
+    height: 480px;
+    position: relative;
+    bottom: 700px;
+    left:150px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    
+}
+.eleven .container11 .demo11{
+   background-color: white;
+    width:29%;
+    position: relative;    
+}
+
+.eleven .container11 .demo11 .image11{
+    height:230px ;
+    width:310px ;
+    background-color: antiquewhite;
+    position: relative;
+    left:19px;
+    top: 20px;
+
+}
+.eleven .container11 .demo11 h1{
+    position: relative;
+    top:30px;
+    left:20px;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+}
+.eleven .container11 .demo11 h2{
+    position: relative;
+    top:40px;
+    left:20px;
+    color: #a3c962;
+}
+.eleven .container11 .demo11 h2:hover{
+    cursor: pointer;
+}
+.eleven .container11 .demo11 h3:hover{
+    cursor: pointer;
+}
+.eleven .container11 .demo11 h4:hover{
+    cursor: pointer;
+}
+.eleven .container11 .demo11 p{
+    position: relative;
+    top:60px;
+    left:20px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
+
+
+
+.eleven .container11 .demo11 h3{
+    position: relative;
+    top:75px;
+    left:20px;
+    font-weight: normal;
+}
+
+.eleven .container11 .demo11 h4{
+    position: relative;
+    top:55px;
+    left:280px;
+    font-weight: normal;
+
+
+}
+
+/* ...........................................................................
+............................................................................. */
+.twelve{
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+}
+.twelve .text12{
+   
+    width:900px;
+    position: relative;
+    left:170px;
+    top:60px;
+     
+ }
+ .twelve .text12 h1{
+     font-size: 25px;
+     letter-spacing: 1.4px;
+     color:#a3c962;
+     position: relative;
+     left:625px;
+     bottom:50px;
+     
+ 
+ }
+ .twelve .text12 h2{
+     font-size: 40px;
+     letter-spacing: 1.7px;
+     color:rgb(0, 0, 0);
+     font-weight: normal;
+     position: relative;
+     left: 625px;
+     bottom: 50px;
+     
+ }
+ .twelve .text12 p{
+     font-size: 17px;
+     letter-spacing: 2px;
+     line-height: 29px;
+     color: gray;
+     text-align: right;
+     position: relative;
+     right:310px;
+     top:16px;
+   
+     
+ }
+.twelve .box12{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left:230px;
+    top:90px;
+    font-weight: normal;
+    font-size: 18px;
+
+}
+.twelve .box12 .minibox1{
+    height: 50px;
+    width: 600px;
+    background-color: rgba(219, 218, 221, 0.747); 
+    position: relative;
+    border-bottom: 1px  solid black;
+    border-left: 0.5px solid rgb(161, 156, 156);
+    border-right: 0.5px solid rgb(161, 156, 156);
+}
+.twelve .box12 .minibox1 p1{
+    position: relative;
+    top:20px;
+    left:5px;
+}
+.twelve .box12 .minibox2{
+    height: 50px;
+    width: 600px;
+    background-color: rgba(219, 218, 221, 0.747); 
+    position: relative;
+    top:20px;
+
+    border-bottom: 1px  solid black;
+    border-left: 0.5px solid rgb(161, 156, 156);
+    border-right: 0.5px solid rgb(161, 156, 156);
+}
+.twelve .box12 .minibox2 p1{
+    position: relative;
+    top:20px;
+    left:5px;
+}
+.twelve .box12 .minibox3{
+    height: 50px;
+    width: 600px;
+    background-color: rgba(219, 218, 221, 0.747); 
+    position: relative;
+    top:40px;
+    border-bottom: 1px  solid black;
+    border-left: 0.5px solid rgb(161, 156, 156);
+    border-right: 0.5px solid rgb(161, 156, 156);
+}
+.twelve .box12 .minibox3 p1{
+    position: relative;
+    top:20px;
+    left:5px;
+}
+.twelve .box12 .minibox4{
+    height: 200px;
+    width: 600px;
+    background-color: rgba(219, 218, 221, 0.747); 
+    position: relative;
+    top:60px;
+    border-bottom: 1px  solid black;
+    border-left: 0.5px solid rgb(161, 156, 156);
+    border-right: 0.5px solid rgb(161, 156, 156);
+}
+.twelve .box12 .minibox4 p1{
+    position: relative;
+    top:20px;
+    left:5px;
+}
+.twelve .box12 .btntwelve{
+    width: 600px;
+    height: 40px;
+    position: relative;
+    top:80px;
+    background-color: #a3c962;
+    border: none;
+
+
+}
+.twelve .container121{
+    height: 130px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom:410px;
+    left:900px; 
+    
+}
+.twelve .image12{
+    height: 40px;
+    width: 40px;
+    
+    position: relative;
+    left:20px;
+    top:40px;
+    font-size: 30px;
+    align-items: center;
+}
+.twelve h1{
+    font-size: 27px;
+    color:#a3c962;
+    position: relative;
+    left:100px;
+    bottom: 60px;
+}
+.twelve .container122{
+    height: 130px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom:380px;
+    left:900px; 
+    
+}
+.twelve .container123{
+    height: 130px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom:350px;
+    left:900px; 
+    
+}
+.twelve p2{
+    font-size: 20px;
+    font-weight: normal;
+    position: relative;
+    bottom:50px;
+    left:100px;
+}
+.twelve .btntwelve:hover{
+
+background-color: black;
+color: white;
+}
+
+.thirteen {
+    height:350px ;
+    border: 1px solid rgb(154, 154, 154);
+}
+
+.thirteen .map{
+    height:330px ;
+    width: 99%;
+    background-color:wheat;
+    position: relative;
+    top:10px;
+    left:10px;
+}
+
+.thirteen .map img{
+    width: 100%;
+    height: 100%;
+}
+
+.thirteen .button12{
+    height: 70px;
+    width: 40px;
+    background-color: white;
+    position: relative;
+    left: 1455px;
+    bottom: 70px;
+    font-size: 25px;
+    text-align: center;
+
+}
+.thirteen .button12 p{
+    font-weight:bold;
+     font-size: 30px;
+
+}
+.thirteen .button12 p1{
+    font-weight: bold ;
+    font-size: 35px;
+
+}
+.thirteen .layer{
+    height: 50px;
+    width: 45px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 120px;
+    left:25px;
+    border-radius: 5px;
+}
+.thirteen .layer:hover{
+
+    border:2px solid rgb(255, 255, 255);
+   
+}
+
+.thirteen .layer img{
+    height: 90%;
+    width: 86%;
+    position: relative;
+    top:2.5px;
+    left:2.8px;
+    transition: none;
+}
+.thirteen .view{
+    height: 20px;
+    width: 120px;
+    background-color: rgb(231, 229, 229);
+    color: blue;
+    font-size: 15px;
+    position: relative;
+    bottom:430px;
+    left:20px;
+    text-align: center;
+
+}
+.thirteen .view:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fourteen{
+    height: 200px;
+    font-size: 18px;
+    background-color:  #a3c962; 
+    text-align: center;
+
+}
+.fourteen p{
+    position: relative;
+    top:20px;
+}
+.fourteen .icon14{
+    width: 220px;
+    height: 60px;
+    
+    position: relative;
+    left:620px;
+    top:50px;
+    font-size: 30px;
+}
+
+
+
+.fourteen .icon14 .mini-icon141{
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top:15px ;
+    left:2px;
+    border-radius: 50%;
+}
+.fourteen .icon14 .mini-icon141:hover{
+   background-color:  #a3c962;
+   cursor: pointer;   
+   
+}
+.fourteen .icon14 .mini-icon141 i{
+    text-align: center;
+    position: relative;
+    bottom: 1px;
+  
+   
+}
+
+.fourteen .icon14 .mini-icon142{
+    background-color: rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left:60px;
+    bottom:15px;
+    border-radius: 50%;
+    font-size: 20px;
+    
+
+}
+.fourteen .icon14 .mini-icon142 i{
+    position: relative;
+    top:5px;
+    color: white;
+   
+}
+.fourteen .icon14 .mini-icon142 i:hover{
+   color: #a3c962;
+   cursor: pointer;
+} 
+
+
+
+
+
+.fourteen .icon14 .mini-icon143{
+    background-color: rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left:120px;
+    bottom: 45px;
+    font-size: 15px;
+    border-radius: 50%;
+
+   
+}
+.fourteen .icon14 .mini-icon143 i{
+    color:  rgb(255, 255, 255);
+    position: relative;
+    top:7px;
+   right:1px;
+    transform:rotate(45deg);
+
+ }
+ .fourteen .icon14 .mini-icon143 i:hover{
+    color:  #a3c962;
+    cursor: pointer;
+ }
+ 
+.fourteen .icon14 .mini-icon144{
+    background-color: rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 50%;
+    left:180px;
+    bottom: 75px;
+    font-size: 24px;
+   
+}
+
+.fourteen .icon14 .mini-icon144 i{
+    position: relative;
+    top:2px;
+    color: white;
+    
+    
+}
+
+.fourteen .icon14 .mini-icon144 i:hover{
+color: #a3c962;
+}
+
+.fourteen .icon14 .mini-icon145{
+    background-color: rgb(0, 0, 0);
+    width: 35px;
+    height: 35px;
+    position: relative;
+    border-radius: 50%;
+    left:90px;
+    bottom: 60px;
+    font-size: 20px;
+   
+}
+.fourteen .icon14 .mini-icon145 i{
+    position: relative;
+    top:5px;
+    color: white;
+  
+}
+.fourteen .icon14 .mini-icon145 i:hover{
+color: #a3c962;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+    
+
+
+
